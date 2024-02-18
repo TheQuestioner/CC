@@ -1,2 +1,2 @@
 # CC
-CC-anyagok
+CC-anyagok.
