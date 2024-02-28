@@ -1,0 +1,79 @@
+
+/*Csak a bal felső sarok van középre igazítva
+h1 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+}
+*/
+/*Vízszintes tengelyen középre van rendezve, de ezt nem nagyon használjuk:
+h1 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    margin-left: -150%;
+    text-align: center;
+}
+
+
+h1 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    text-align: center;
+    transform: translateX(-150);
+}
+
+
+h1 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: scale(1.5);
+}
+
+
+
+h1 {
+    position: fixed;
+    transform: translate(calc(50vw - 50%), calc(50vh - 50%));
+}
+
+*/
+
+h1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
